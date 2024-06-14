@@ -28,189 +28,194 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
+            groupBoxTEHjadwal = new GroupBox();
+            groupBoxTampilanJadwal = new GroupBox();
+            dataGridView1 = new DataGridView();
             textBox1 = new TextBox();
-            groupBox2 = new GroupBox();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            groupBox3 = new GroupBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            groupBoxTEHjadwal.SuspendLayout();
+            groupBoxTampilanJadwal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // groupBox1
+            // groupBoxTEHjadwal
             // 
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Location = new Point(12, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(462, 467);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Input Jadwal";
+            groupBoxTEHjadwal.Controls.Add(label3);
+            groupBoxTEHjadwal.Controls.Add(label2);
+            groupBoxTEHjadwal.Controls.Add(label1);
+            groupBoxTEHjadwal.Controls.Add(button3);
+            groupBoxTEHjadwal.Controls.Add(button2);
+            groupBoxTEHjadwal.Controls.Add(button1);
+            groupBoxTEHjadwal.Controls.Add(textBox3);
+            groupBoxTEHjadwal.Controls.Add(textBox2);
+            groupBoxTEHjadwal.Controls.Add(textBox1);
+            groupBoxTEHjadwal.Location = new Point(12, 12);
+            groupBoxTEHjadwal.Name = "groupBoxTEHjadwal";
+            groupBoxTEHjadwal.Size = new Size(470, 639);
+            groupBoxTEHjadwal.TabIndex = 0;
+            groupBoxTEHjadwal.TabStop = false;
+            groupBoxTEHjadwal.Text = "Tambah Hapus Edit Jadwal";
+            // 
+            // groupBoxTampilanJadwal
+            // 
+            groupBoxTampilanJadwal.Controls.Add(dataGridView1);
+            groupBoxTampilanJadwal.Location = new Point(488, 12);
+            groupBoxTampilanJadwal.Name = "groupBoxTampilanJadwal";
+            groupBoxTampilanJadwal.Size = new Size(575, 639);
+            groupBoxTampilanJadwal.TabIndex = 1;
+            groupBoxTampilanJadwal.TabStop = false;
+            groupBoxTampilanJadwal.Text = "Daftar Jadwal";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
+            dataGridView1.Dock = DockStyle.Fill;
+            dataGridView1.Location = new Point(3, 27);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(569, 609);
+            dataGridView1.TabIndex = 0;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(156, 30);
-            textBox1.Multiline = true;
+            textBox1.Location = new Point(249, 85);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(300, 50);
+            textBox1.Size = new Size(150, 31);
             textBox1.TabIndex = 0;
-            // 
-            // groupBox2
-            // 
-            groupBox2.Controls.Add(button4);
-            groupBox2.Controls.Add(button3);
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Location = new Point(12, 490);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(462, 132);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Proses";
-            // 
-            // button4
-            // 
-            button4.Location = new Point(289, 73);
-            button4.Name = "button4";
-            button4.Size = new Size(112, 34);
-            button4.TabIndex = 3;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(289, 33);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 34);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(28, 73);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(28, 33);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Location = new Point(492, 12);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(590, 610);
-            groupBox3.TabIndex = 2;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Jadwal";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(156, 103);
-            textBox2.Multiline = true;
+            textBox2.Location = new Point(249, 153);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(300, 50);
+            textBox2.Size = new Size(150, 31);
             textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(156, 175);
-            textBox3.Multiline = true;
+            textBox3.Location = new Point(249, 225);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(300, 50);
+            textBox3.Size = new Size(150, 31);
             textBox3.TabIndex = 2;
             // 
-            // textBox4
+            // button1
             // 
-            textBox4.Location = new Point(156, 245);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(300, 50);
-            textBox4.TabIndex = 3;
+            button1.Location = new Point(27, 553);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 3;
+            button1.Text = "Tambah";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(173, 553);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 4;
+            button2.Text = "Edit";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(318, 553);
+            button3.Name = "button3";
+            button3.Size = new Size(112, 34);
+            button3.TabIndex = 5;
+            button3.Text = "Hapus";
+            button3.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(28, 42);
+            label1.Location = new Point(27, 85);
             label1.Name = "label1";
             label1.Size = new Size(116, 25);
-            label1.TabIndex = 4;
+            label1.TabIndex = 6;
             label1.Text = "Nama Jadwal";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(27, 115);
+            label2.Location = new Point(27, 159);
             label2.Name = "label2";
             label2.Size = new Size(61, 25);
-            label2.TabIndex = 5;
+            label2.TabIndex = 7;
             label2.Text = "Kapan";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(28, 191);
+            label3.Location = new Point(27, 231);
             label3.Name = "label3";
-            label3.Size = new Size(61, 25);
-            label3.TabIndex = 6;
-            label3.Text = "Kapan";
+            label3.Size = new Size(84, 25);
+            label3.TabIndex = 8;
+            label3.Text = "Deskripsi";
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Nama Jadwal";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Kapan Jadwal";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Deskripsi Jadwal";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
             // 
             // FormJadwal
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(1094, 634);
-            Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
+            ClientSize = new Size(1075, 663);
+            Controls.Add(groupBoxTampilanJadwal);
+            Controls.Add(groupBoxTEHjadwal);
             Name = "FormJadwal";
             Text = "FormJadwal";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
+            Load += FormJadwal_Load;
+            groupBoxTEHjadwal.ResumeLayout(false);
+            groupBoxTEHjadwal.PerformLayout();
+            groupBoxTampilanJadwal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
-        private Button button4;
+        private GroupBox groupBoxTEHjadwal;
+        private GroupBox groupBoxTampilanJadwal;
+        private Label label3;
+        private Label label2;
+        private Label label1;
         private Button button3;
         private Button button2;
         private Button button1;
-        private GroupBox groupBox3;
-        private TextBox textBox1;
-        private Label label2;
-        private Label label1;
-        private TextBox textBox4;
         private TextBox textBox3;
         private TextBox textBox2;
-        private Label label3;
+        private TextBox textBox1;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
     }
 }

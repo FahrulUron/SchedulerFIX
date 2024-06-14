@@ -34,7 +34,6 @@
             jamToolStripMenuItem = new ToolStripMenuItem();
             menu_jadwal = new ToolStripMenuItem();
             toolStripSeparator6 = new ToolStripSeparator();
-            submenu_tambahjadwal = new ToolStripMenuItem();
             toolStripSeparator7 = new ToolStripSeparator();
             menu_pengaturan = new ToolStripMenuItem();
             toolStripSeparator2 = new ToolStripSeparator();
@@ -76,7 +75,7 @@
             // 
             // menu_jadwal
             // 
-            menu_jadwal.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator6, submenu_tambahjadwal, toolStripSeparator7 });
+            menu_jadwal.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator6, toolStripSeparator7 });
             menu_jadwal.Name = "menu_jadwal";
             menu_jadwal.Size = new Size(80, 29);
             menu_jadwal.Text = "&Jadwal";
@@ -84,18 +83,12 @@
             // toolStripSeparator6
             // 
             toolStripSeparator6.Name = "toolStripSeparator6";
-            toolStripSeparator6.Size = new Size(242, 6);
-            // 
-            // submenu_tambahjadwal
-            // 
-            submenu_tambahjadwal.Name = "submenu_tambahjadwal";
-            submenu_tambahjadwal.Size = new Size(245, 34);
-            submenu_tambahjadwal.Text = "+&Tambah Jadwal";
+            toolStripSeparator6.Size = new Size(267, 6);
             // 
             // toolStripSeparator7
             // 
             toolStripSeparator7.Name = "toolStripSeparator7";
-            toolStripSeparator7.Size = new Size(242, 6);
+            toolStripSeparator7.Size = new Size(267, 6);
             // 
             // menu_pengaturan
             // 
@@ -107,34 +100,34 @@
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(206, 6);
+            toolStripSeparator2.Size = new Size(267, 6);
             // 
             // submenu_notifikasi
             // 
             submenu_notifikasi.Name = "submenu_notifikasi";
-            submenu_notifikasi.Size = new Size(209, 34);
+            submenu_notifikasi.Size = new Size(270, 34);
             submenu_notifikasi.Text = "&Notifikasi";
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(206, 6);
+            toolStripSeparator3.Size = new Size(267, 6);
             // 
             // submenu_bahasa
             // 
             submenu_bahasa.Name = "submenu_bahasa";
-            submenu_bahasa.Size = new Size(209, 34);
+            submenu_bahasa.Size = new Size(270, 34);
             submenu_bahasa.Text = "&Bahasa";
             // 
             // toolStripSeparator4
             // 
             toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(206, 6);
+            toolStripSeparator4.Size = new Size(267, 6);
             // 
             // zonaWaktuToolStripMenuItem
             // 
             zonaWaktuToolStripMenuItem.Name = "zonaWaktuToolStripMenuItem";
-            zonaWaktuToolStripMenuItem.Size = new Size(209, 34);
+            zonaWaktuToolStripMenuItem.Size = new Size(270, 34);
             zonaWaktuToolStripMenuItem.Text = "&Zona Waktu";
             // 
             // menu_tentang
@@ -196,7 +189,6 @@
         public ToolStripMenuItem menu_jadwal;
         public ToolStripMenuItem menu_pengaturan;
         public ToolStripMenuItem menu_tentang;
-        public ToolStripMenuItem submenu_tambahjadwal;
         public ToolStripMenuItem submenu_notifikasi;
         private ToolStripSeparator toolStripSeparator6;
         private ToolStripSeparator toolStripSeparator7;

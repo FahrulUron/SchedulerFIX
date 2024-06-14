@@ -1,4 +1,6 @@
 using SchedulerFIX;
+using SchedulerFIX.Jam;
+using SchedulerFIX.Kalender;
 
 
 namespace SchedulerFIX
@@ -22,7 +24,7 @@ namespace SchedulerFIX
         }
 
         //menu jam
-        FormJam jam;
+        FormJamDigital jam;
         void jam_FormClosed(Object sender, FormClosedEventArgs e)
         {
             jam = null;
@@ -112,7 +114,7 @@ namespace SchedulerFIX
         {
             if (jam == null)
             {
-                jam = new FormJam();
+                jam = new FormJamDigital();
                 jam.MdiParent = this;
 
                 jam.FormClosed += new FormClosedEventHandler

@@ -16,5 +16,10 @@ namespace SchedulerFIX.Jadwal
         {
             InitializeComponent();
         }
+
+        private void FormJadwal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
